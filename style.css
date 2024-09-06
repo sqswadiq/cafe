@@ -1,6 +1,6 @@
 .heading-span{
 	color: darkolivegreen;
-	font-family: cursive;
+	font-family: Oswald, sans-serif ;
 	font-weight: bold;
 	font-size: 2rem;
 	text-decoration: none;
@@ -31,6 +31,7 @@
     height: 85%;
 	margin: 2px 13px;
 	border: none;
+	text-shadow: 5px 5px 10px black;
 	
 }
 .link{
