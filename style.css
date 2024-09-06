@@ -1,56 +1,54 @@
-.navheader{
-    background-color: #fff;
-    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .04), 0 1px 5px 0 rgba(0, 0, 0, .04);
-   /* position:fixed;*/
-    top: 0;
-    width: 100%;
-    /*z-index: 500;*/
-}
-
-.heading{
-	display: flex;
-}
-.heading span{
+.heading-span{
 	color: darkolivegreen;
 	font-family: cursive;
 	font-weight: bold;
-	margin-top: 10px;
-	font-size: 40px;
+	font-size: 2rem;
+	text-decoration: none;
+	
 }
-
-.heading img{
-	width: 75px;
-	height: 75px;
-	margin-right: 0px;
-}
-
-.navbar{
-	display: flex; /*one after one*/
-	justify-content: space-between; /*space varaan 2 sidekk aavm*/
-	width: 85%;
-	margin-left: 100px;
-	align-items: center; /*vertically centre*/
+.heading-span:hover{
+	color: darkolivegreen;
 }
 .listitem{
+	color: darkred;
 	display: inline-block;/*single line*/
 	list-style: none;/*bullet oyvakkaan*/
-	margin: 10px 20px;
+	margin: 10px 15px;
+	text-decoration: darkred;
+	
+}
+.listitem:hover{
+	color: darkred;
+}
+.aboutUs-button{
+	background: darkred;
+	color: white;
+	display: inline-block;/*single line*/
+	list-style: none;/*bullet oyvakkaan*/
+	text-decoration: none;
+	border-radius: 1rem;
+    width: 8rem;
+    height: 85%;
+	margin: 2px 13px;
+	border: none;
+	
 }
 .link{
 	color: darkred;
 	text-decoration: none; /*under line oyvakkan*/
-	font-weight: bold;
-}
+	font-weight: bold; 
+} 
 
 .link:hover{
 	color: yellowgreen;
 
 }
 
-/*------------------------------------------------*/
+/*--------------------NAVBAR END----------------------------*/
 
 .homehead{
-	margin-top: 100px;
+	font-weight: bold; 
+
 }
 .the-title{
 	font-family: Bradley Hand, cursive;
