@@ -193,3 +193,12 @@
 	color: rgb(24,0,0);
 	text-decoration: none; /*under line oyvakkan*/
 }
+
+/*------------------ footer --------------*/
+
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: #abbaba;
+	color: #000;
+  }
