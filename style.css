@@ -1,5 +1,5 @@
 .heading-span{
-	color: darkolivegreen;
+	color: darkred;
 	font-family: Oswald, sans-serif ;
 	font-weight: bold;
 	font-size: 2rem;
@@ -7,7 +7,7 @@
 	
 }
 .heading-span:hover{
-	color: darkolivegreen;
+	color: darkred;
 }
 .listitem{
 	color: darkred;
@@ -47,25 +47,26 @@
 
 /*--------------------NAVBAR END----------------------------*/
 
+
+/*--------------------Hero Section----------------------------*/
 .homehead{
 	font-weight: bold; 
 
 }
 .the-title{
-	font-family: Bradley Hand, cursive;
+	font-family: Anton, sans-serif;
+	font-weight: bold
 }
-.homehead span{
-	color: rgba(200, 100, 70, 2);
-	font-size: 35px;
+.the-title span{
+	color: darkred;
 }
-.homecontent h2{
-	font-size: 80px;
-	font-family: Brush Script MT, Brush Script Std, cursive;
-	color: darkolivegreen;
+.homecontent{
+	font-family: Quattrocento, serif;
+	color: brown;
 }
-
-
 /*-----------------------------------------------*/
+
+
 
 /* Center align the items and adjust the height and width*/
 .slides{
