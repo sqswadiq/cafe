@@ -218,47 +218,68 @@ img {vertical-align: middle;}
 /*------------------ footer --------------*/
 
 footer {
-	text-align: center;
-	padding: 5px;
-	background-color: #101820;
-	color: #000;
-  }
-
-
-.resource ol{
-	list-style: none;
-	text-align: left;
-}
-.resource a{
-	text-decoration: none;
-	color: rgb(181, 181, 181);
+    text-align: center;
+    padding: 20px;
+    background-color: #101820;
+    color: #fff;
 }
 
-.about ol{
-	list-style: none;
-	text-align: left;
+.resource ol, .about ol {
+    list-style: none;
+    text-align: left;
+    padding: 0;
 }
-.about a{
-	text-decoration: none;
-	color: rgb(181, 181, 181);
+
+.resource a, .about a {
+    text-decoration: none;
+    color: rgb(181, 181, 181);
 }
-.footer h5{
-	color: rgb(228, 227, 232);
-	text-align: left;
-	padding-left: 2rem;
+
+.footer h5 {
+    color: rgb(228, 227, 232);
+    text-align: left;
+    padding-left: 4px;
 }
-.v_line{
-	border-right: 2px solid #6c757d; 
-	height: 70%;
-	margin-top: 15px;
+
+.v_line {
+    border-right: 2px solid #6c757d;
+    height: 100%; /* Full height of the parent container */
+    margin-top: 0;
 }
-footer hr{
-	border-top: 2px solid #6c757d; 
-	width: 80%;
-	margin: 0% auto;
-	
+
+footer hr {
+    border-top: 2px solid #6c757d;
+    width: 80%;
+    margin: 20px auto;
 }
-.cursive-border{
-	border: 1px ;
-	border-radius: 30px;
+
+.cursive-border {
+    border: 2px solid #6c757d;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+@media (max-width: 768px) {
+    .footer h5 {
+        padding-left: 0; /* Remove padding on smaller screens */
+        text-align: left;
+    }
+
+    .v_line {
+        display: none; /* Hide the vertical line on smaller screens */
+    }
+
+    form.d-flex {
+        flex-direction: column; /* Stack form elements on smaller screens */
+    }
+
+    input.cursive-border, button.cursive-border {
+        width: 100%; /* Make inputs and button take full width */
+    }
+}
+
+@media (min-height: 1024px) {
+    .cursive-border {
+        width: auto; /* Let the input adjust naturally on larger screens */
+    }
 }
