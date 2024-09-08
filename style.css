@@ -116,31 +116,6 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-
-.slides{
-	width: 100%;
-	height: 100%;
-}
-.carousel-inner {
-  display: flex;
-  align-items: center;
-  height: 550px; /* Adjust this value to set the desired height */
-}
-
-.carousel-item {
-  text-align: center;
-  height: 100%;
-}
-.carousel-item img {
-  max-height: 100%;
-  object-fit: cover;
-  margin: 0 auto;
-}
-
-.slidecol{
-	margin-top: 16px;
-}
-
 .offerimg1 {
 	width: 350px;
 	height: 300px;
