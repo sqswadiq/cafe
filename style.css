@@ -220,6 +220,45 @@ img {vertical-align: middle;}
 footer {
 	text-align: center;
 	padding: 5px;
-	background-color: #abbaba;
+	background-color: #101820;
 	color: #000;
   }
+
+
+.resource ol{
+	list-style: none;
+	text-align: left;
+}
+.resource a{
+	text-decoration: none;
+	color: rgb(181, 181, 181);
+}
+
+.about ol{
+	list-style: none;
+	text-align: left;
+}
+.about a{
+	text-decoration: none;
+	color: rgb(181, 181, 181);
+}
+.footer h5{
+	color: rgb(228, 227, 232);
+	text-align: left;
+	padding-left: 2rem;
+}
+.v_line{
+	border-right: 2px solid #6c757d; 
+	height: 70%;
+	margin-top: 15px;
+}
+footer hr{
+	border-top: 2px solid #6c757d; 
+	width: 80%;
+	margin: 0% auto;
+	
+}
+.cursive-border{
+	border: 1px ;
+	border-radius: 30px;
+}
