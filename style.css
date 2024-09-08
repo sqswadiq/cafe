@@ -114,30 +114,28 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-.offerimg1 {
-	width: 350px;
-	height: 300px;
-	margin-top: -80px;
-	margin-left: -100px;
-	margin-bottom:-35px;
-	}
-
-
+.sunday-offer-img {
+	float: left;
+	width: 46%;
+}
+.sunday-offer-section{
+	
+}
+.sunday-offer-lists{
+	font-size: medium;
+    color: rgba(40, 50, 32);
+    font-family: Catamaran, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 8%;
+}
 .offerimg2 {
 	width: 300px;
 	height: 250px;
 	margin-top: -40px;
 	margin-left: -80px;
 	margin-bottom:-35px;
-}
-
-.list1{
-	margin-bottom: 0px;
-	margin-left: -100px;
-	margin-top: 100px;
-	list-style: circle;
-	color: rgba(40,50,32);
-	font-weight: 500;
 }
 .list2{
 	margin-bottom: 0px;
