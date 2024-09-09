@@ -196,13 +196,13 @@ img {vertical-align: middle;}
 	text-align: center;
 }
 .storyheading span{
-	color: rgb(255, 255, 255);
+	color: darkred;
 }
 .storytext{
-	font-family: monospace;
+	font-family: Signika Negative, sans-serif;
 	margin-left: 20px;
 	margin-right: 20px;
-	color: rgb(233, 229, 229);
+	color: #000;
 }
 /* contacat form css */
 
