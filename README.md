@@ -20,7 +20,7 @@ Key Features
 - Responsive design for desktop, tablet, and mobile devices
 - Custom layout and design using Bootstrap and CSS
 - Interactive elements using JavaScript and jQuery
-- Fast loading speed and search engine optimization (SEO)
+- Fast loading speed 
 
 Live Website
 
