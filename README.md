@@ -37,7 +37,7 @@ Technologies Used
 
 Contributors
 
-- Muhammed Swadique (sqswadiq)
+- Mohamed Swadique (sqswadiq)
 - Muhammed Shammas (muhammedshammashere)
 
 Contact
