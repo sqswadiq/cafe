@@ -114,22 +114,18 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+/*-------------------offer section-------------------------*/
 
-<<<<<<< HEAD:style.css
-.sunday-offer-img {
-	float: left;
-	width: 46%;
+.offerimg1{
+	display: flex;
+	justify-content: right;
+	align-items: center;
 }
+.offerlist1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-.sunday-offer-section{
-=======
-
-	/* offer section */
-.sunday-offer-img {
-	float: left;
-	width: 46%;
->>>>>>> d5983c193fe604af74e279d96d78ebd17b2f760e:css/style.css
-	
 }
 .sunday-offer-lists{
 	font-size: medium;
@@ -138,20 +134,28 @@ img {vertical-align: middle;}
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    margin-top: 8%;
+	text-align: left;
 }
-.wednesday-offer-img {
-	float: right;
-	width: 46%;
+
+.offerimg2{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.offerlist2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 .wednesday-offer-list{
-	margin-top: 16%;
 	font-size: medium;
     color: rgba(40, 50, 32);
     font-family: Catamaran, sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
+	text-align: left;
 }
 	
 /*-----------------------menu-----------------------*/
