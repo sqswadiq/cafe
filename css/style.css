@@ -115,12 +115,20 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
+<<<<<<< HEAD:style.css
 .sunday-offer-img {
 	float: left;
 	width: 46%;
 }
 
 .sunday-offer-section{
+=======
+
+	/* offer section */
+.sunday-offer-img {
+	float: left;
+	width: 46%;
+>>>>>>> d5983c193fe604af74e279d96d78ebd17b2f760e:css/style.css
 	
 }
 .sunday-offer-lists{
@@ -132,19 +140,18 @@ img {vertical-align: middle;}
     font-style: normal;
     margin-top: 8%;
 }
-.offerimg2 {
-	width: 300px;
-	height: 250px;
-	margin-top: -40px;
-	margin-left: -80px;
-	margin-bottom:-35px;
+.wednesday-offer-img {
+	float: right;
+	width: 46%;
 }
-.list2{
-	margin-bottom: 0px;
-	margin-top: -10px;
-	list-style: circle;
-	color: rgba(40,50,32);
-	font-weight: 500;
+.wednesday-offer-list{
+	margin-top: 16%;
+	font-size: medium;
+    color: rgba(40, 50, 32);
+    font-family: Catamaran, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 	
 /*-----------------------menu-----------------------*/
@@ -182,24 +189,32 @@ img {vertical-align: middle;}
 }
 
 
-/*-------------------contact-----------------------------*/
+/*-------------------About us-----------------------------*/
 
 .contacthr{
 	width: 200px;
 	color :brown;
 	margin: auto;
 }
+.storyDiv{
+	background: darkred;
+	
+}
 .storyheading{
+	font-family: Anton, sans-serif;
 	text-align: center;
-	font-family: initial;
-	color: rgb(24,0,0);
+}
+.storyheading span{
+	color: darkred;
 }
 .storytext{
-	font-family: monospace;
+	font-family: Signika Negative, sans-serif;
 	margin-left: 20px;
 	margin-right: 20px;
-	color: rgb(24,0,0);
+	color: #000;
 }
+/* contacat form css */
+
 
 /*----------------------------------------*/
 .contact{
