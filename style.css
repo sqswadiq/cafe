@@ -114,16 +114,18 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
 .sunday-offer-img {
 	float: left;
 	width: 46%;
 }
+
 .sunday-offer-section{
 	
 }
 .sunday-offer-lists{
 	font-size: medium;
-    color: rgba(40, 50, 32);
+    color: rgb(48, 60, 38);
     font-family: Catamaran, sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -144,7 +146,7 @@ img {vertical-align: middle;}
 	color: rgba(40,50,32);
 	font-weight: 500;
 }
-
+	
 /*-----------------------menu-----------------------*/
 
 #menu{
